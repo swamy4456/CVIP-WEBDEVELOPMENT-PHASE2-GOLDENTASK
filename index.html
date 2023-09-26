@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link Shortener</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Link Shortener</h1>
+    </header>
+
+    <section class="container">
+        <label for="originalLink">Enter the URL to shorten:</label>
+        <input type="url" id="originalLink" placeholder="https://example.com" required>
+        <button id="shortenButton">Shorten</button>
+    </section>
+
+    <section class="container">
+        <p>Shortened URL:</p>
+        <p id="shortenedLink"></p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
